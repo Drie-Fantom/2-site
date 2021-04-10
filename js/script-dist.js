@@ -1,0 +1,2 @@
+$(document).ready((function(){$(".menu__icon").click((function(t){$(".menu__icon,.lang__list,.menu__list").toggleClass("active"),$("body").toggleClass("lock")}))})),jQuery(document).ready((function(){jQuery("a.scrollto").click((function(){return elementClick=jQuery(this).attr("href"),destination=jQuery(elementClick).offset().top,jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop:destination},1100),!1}))}));
+//# sourceMappingURL=script-dist.js.map
